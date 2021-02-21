@@ -56,7 +56,6 @@ func trace_collision(initial_v):
 			ghost_ball.position += collision_result.motion
 			ghost_ball.position -= collision_result.motion_remainder
 			#change velocity
-			#I give up here.
 		
 		#temp
 		target += delta_pos
